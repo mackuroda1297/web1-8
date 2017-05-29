@@ -18,7 +18,11 @@ body{
 #gnav ul {
   overflow: hidden;
 }
-
+#gnav a.selected {
+  background: white;
+  color: darkgreen;
+  font-weight: cold;
+}
 #gnav li {
   float: left;
   width: 156px;
