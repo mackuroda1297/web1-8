@@ -37,7 +37,7 @@ body{
 #gnav a.selected {
   background: white;
   color: darkgreen;
-  font-weight: cold;
+  font-weight: bold;
 }
 #gnav li {
   float: left;
