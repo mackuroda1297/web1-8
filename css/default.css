@@ -9,7 +9,10 @@ body{
 }
 
 #logo li {
-  list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding:0 10px;
+	list-style-type: none;
 }
 
 #logo img {
