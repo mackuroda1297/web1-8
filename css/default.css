@@ -9,8 +9,10 @@ body{
 }
 
 #logo li {
-  float: left;
-  list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding:0 10px;
+	list-style-type: none;
 }
 
 #logo img {
@@ -35,7 +37,7 @@ body{
 #gnav a.selected {
   background: white;
   color: darkgreen;
-  font-weight: cold;
+  font-weight: bold;
 }
 #gnav li {
   float: left;
